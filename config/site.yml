@@ -1,0 +1,28 @@
+name: Ecwid
+locales: [fr, en]
+domains: [ecwid.studiowan.fr]
+timezone: UTC
+seo_title:
+  fr: FraisManger
+  en: FreshFood
+meta_keywords:
+  fr: ''
+  en: ''
+meta_description:
+  fr: ''
+  en: ''
+robots_txt: ''
+metafields:
+  shop:
+    address: 700 South Laflin Street
+    city: Chicago
+    zip_code: '60607'
+    country: US
+    hours: Monday to Friday 9am-5pm
+  theme:
+    logo: ''
+    link_color: ''
+  social:
+    facebook_id: locomotivecms
+    twitter_id: locomotivecms
+metafields_ui: {}

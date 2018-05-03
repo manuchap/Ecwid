@@ -1,0 +1,28 @@
+name: Slides
+slug: slides
+description: A description of the content type for the editors
+label_field_name: title
+order_by: _position
+order_direction: asc
+group_by: active
+public_submission_enabled: false
+public_submission_account_emails: []
+fields:
+- title:
+    label: Title
+    type: string
+    required: true
+    hint: Explanatory text displayed in the back office
+    localized: true
+- picture:
+    label: Picture
+    type: file
+    required: true
+    hint: Explanatory text displayed in the back office
+    localized: false
+- active:
+    label: Active
+    type: boolean
+    required: false
+    hint: Explanatory text displayed in the back office
+    localized: false

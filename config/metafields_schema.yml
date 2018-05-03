@@ -1,0 +1,61 @@
+---
+shop:
+  label:
+    fr: boutique
+    en: shop
+  position: 0
+  fields:
+    address:
+      position: 0
+      hint:
+        default: 'Ex: 7 allee Albert Camus'
+      type: string
+    city:
+      position: 1
+      hint:
+        default: Chicago, Paris, Blagnac, Toulouse
+      type: string
+    zip_code:
+      position: 2
+      hint:
+        default: Digits only
+      type: string
+    country:
+      position: 3
+      type: select
+      select_options:
+      - France
+      - US
+      - Italy
+      - Germany
+    hours:
+      position: 4
+      hint:
+        default: Free text
+      type: text
+theme:
+  label:
+    default: theme
+  position: 1
+  fields:
+    logo:
+      position: 0
+      label:
+        default: Site logo
+      type: image
+      hint:
+        default: Change your Site logo (50px by 50px). Automatically cropped
+    link_color:
+      position: 1
+      type: color
+      hint:
+        default: Pick a color of your choice
+social:
+  label:
+    default: social
+  position: 2
+  fields:
+    Facebook ID:
+      position: 0
+    Twitter ID:
+      position: 1

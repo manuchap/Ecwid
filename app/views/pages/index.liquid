@@ -1,0 +1,23 @@
+---
+title: Page d'accueil
+slug: index
+handle: index
+position: 0
+listed: true
+published: true
+is_layout: false
+seo_title: Le FreshFood
+editable_elements:
+  body/topbar: "<h1>Fruits et légumes frais \U0001F331</h1><h1><b></b></h1>"
+---
+{% extends 'layouts/default' %}
+{% block 'body' %}
+{% include 'modal' %}
+{% include 'nav' %}
+{% include 'tease' %}
+{% include 'slider' %}
+{% include 'who' %}
+{% comment %}{% include 'offer' %}{% endcomment %}
+{% comment %}{% include 'plans' %}{% endcomment %}
+{% include 'contact' %}
+{% endblock %}

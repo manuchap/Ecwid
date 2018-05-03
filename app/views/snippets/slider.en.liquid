@@ -1,0 +1,21 @@
+  <!-- Slider -->
+  {% with_scope active: true %}
+  {% for slide in contents.slides %}
+  <div class="w3-display-container w3-animate-opacity mySlides">
+    <img src="{{slide.picture.url}}" style="width:100%">
+    <div class="w3-display-topleft w3-text-white w3-container w3-padding-hor-32 w3-hide-small">
+      <span class="w3-white w3-padding-large w3-animate-bottom">{{slide.title}}</span>
+    </div>
+  </div>
+  {% endfor %}
+  <!-- Slideshow next/previous buttons -->
+  <div class="w3-container w3-padding-hor-8">
+    <div class="w3-left w3-hover-text-teal w3-large" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-teal w3-large" onclick="plusDivs(1)">&#10095;</div>
+    <div class="w3-center">
+    {% for slide in contents.slides %}
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv({{ forloop.index }})"></span>
+    {% endfor %}
+    </div>
+  </div>
+  {% endwith_scope %}

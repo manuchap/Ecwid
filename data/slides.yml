@@ -1,0 +1,27 @@
+- Des pommes:
+    _slug:
+      fr: des-pommes
+      en: des-pommes
+    title:
+      fr: Des pommes
+      en: Apples
+    picture: "/samples/content_entries/img_1.jpg"
+    active: true
+- Des oranges:
+    _slug:
+      fr: des-oranges
+      en: des-oranges
+    title:
+      fr: Des oranges
+      en: Oranges
+    picture: "/samples/content_entries/img_2.jpg"
+    active: true
+- Des cerises:
+    _slug:
+      fr: des-cerises
+      en: des-cerises
+    title:
+      fr: Des cerises
+      en: Cherries
+    picture: "/samples/content_entries/img_3.jpg"
+    active: true

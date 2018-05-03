@@ -1,0 +1,18 @@
+---
+title: Home page
+slug: index
+seo_title: Le FreshFood
+editable_elements:
+  body/topbar: "<h1>WE LIKE FRESH \U0001F331</h1><h1><b></b></h1>"
+---
+{% extends 'layouts/default' %}
+{% block 'body' %}
+{% include 'modal' %}
+{% include 'nav' %}
+{% include 'tease' %}
+{% include 'slider' %}
+{% include 'who' %}
+{% include 'offer' %}
+{% include 'plans' %}
+{% include 'contact' %}
+{% endblock %}

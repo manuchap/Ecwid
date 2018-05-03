@@ -1,0 +1,5 @@
+production:
+  host: https://engine.studiowan.fr
+  handle: thoughtless-dove-695
+  email: admin@studiowan.fr
+  api_key: af3c8ca6fa3192b24cc6a1f6c1ba009084840570
