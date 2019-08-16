@@ -44,3 +44,4 @@ bower.json
 .byebug_history
 Gemfile
 Gemfile.lock
+config/deploy.yml

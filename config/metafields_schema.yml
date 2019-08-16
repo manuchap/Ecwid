@@ -55,7 +55,7 @@ social:
     default: social
   position: 2
   fields:
-    Facebook ID:
+    Facebook_ID:
       position: 0
-    Twitter ID:
+    Twitter_ID:
       position: 1
