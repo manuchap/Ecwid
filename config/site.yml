@@ -1,5 +1,5 @@
 name: Ecwid
-locales: [en, fr]
+locales: [fr, en]
 domains: [ecwid.studiowan.fr]
 timezone: UTC
 seo_title:
