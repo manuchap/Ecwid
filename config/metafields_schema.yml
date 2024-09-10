@@ -1,8 +1,8 @@
 ---
 shop:
   label:
-    fr: boutique
     en: shop
+    fr: boutique
   position: 0
   fields:
     address:

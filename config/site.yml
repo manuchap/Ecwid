@@ -1,16 +1,16 @@
 name: Ecwid
-locales: [fr, en]
+locales: [en, fr]
 domains: [ecwid.studiowan.fr]
 timezone: UTC
 seo_title:
-  fr: FraisManger
   en: FreshFood
+  fr: FraisManger
 meta_keywords:
-  fr: ''
   en: ''
+  fr: ''
 meta_description:
-  fr: ''
   en: ''
+  fr: ''
 robots_txt: ''
 metafields:
   shop:

@@ -1,0 +1,17 @@
+{
+  "id":"5f9ae7927332b212322a9708",
+  "title":"Le Shop",
+  "slug":"shop",
+  "handle":null,
+  "listed":true,
+  "published":true,
+  "position":0,
+  "fullpath":"shop",
+  "sections_content":{},
+  "sections_dropzone_content":[],
+  "editable_elements":{"body/topbar":"<h1><b>WE LIKE FRESH 🌱</b></h1>"},
+  "seo_title":"Le Shop",
+  "meta_description":null,
+  "meta_keywords":null,
+  "raw_template":"{% extends 'layouts/default' %}\n{% block 'body' %}\n{% include 'nav' %}\n{% include 'tease' %}\n{% include 'shop' %}\n{% endblock %}"
+}

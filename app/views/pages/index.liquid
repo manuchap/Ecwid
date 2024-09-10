@@ -10,7 +10,7 @@ seo_title: Le FreshFood
 editable_elements:
   body/slides: "Fruits et légumes frais \U0001F331"
   body/promo: "Promo du jour 🎁"
-  body/item: ""
+  body/item: "<div class=\"ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-8111479\" itemscope itemtype=\"http://schema.org/Product\" data-single-product-id=\"8111479\"><div itemprop=\"image\"></div><div class=\"ecsp-title\" itemprop=\"name\" content=\"Concombres\"></div><div itemtype=\"http://schema.org/Offer\" itemscope itemprop=\"offers\"><div class=\"ecsp-productBrowser-price ecsp-price\" itemprop=\"price\" content=\"1.12\" data-spw-price-location=\"button\"><div itemprop=\"priceCurrency\" content=\"EUR\"></div></div></div><div customprop=\"options\"></div><div customprop=\"qty\"></div><div customprop=\"addtobag\"></div><div customprop=\"vatinprice\"></div></div><script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?842164&data_platform=singleproduct_v2\" charset=\"utf-8\"></script><script type=\"text/javascript\">xProduct()</script>"
 ---
 {% extends 'layouts/default' %}
 {% block 'body' %}
@@ -19,4 +19,5 @@ editable_elements:
 {% include 'slider' %}
 {% include 'who' %}
 {% include 'contact' %}
+{{ 'slides' | javascript_tag }}
 {% endblock %}

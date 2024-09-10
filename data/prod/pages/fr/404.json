@@ -1,0 +1,17 @@
+{
+  "id":"5f9ae7897332b212322a96f8",
+  "title":"Page non trouvée",
+  "slug":"404",
+  "handle":null,
+  "listed":true,
+  "published":true,
+  "position":1,
+  "fullpath":"404",
+  "sections_content":{},
+  "sections_dropzone_content":[],
+  "editable_elements":{},
+  "seo_title":null,
+  "meta_description":null,
+  "meta_keywords":null,
+  "raw_template":"{% extends 'layouts/default' %}\n{% block body %}\n{% endblock %}"
+}

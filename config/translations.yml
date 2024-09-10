@@ -1,6 +1,24 @@
 who:
   en: Who We Are
   fr: Qui Nous Sommes
-con:
+contact:
   en: Contact Us
   fr: Contactez-nous
+name:
+  en: Name
+  fr: Nom
+subject:
+  en: Subject
+  fr: Sujet
+text:
+  en: Message
+  fr: Message
+home:
+  en: Home
+  fr: Accueil
+shop:
+  en: Shop
+  fr: Boutique
+support:
+  en: Support
+  fr: Support

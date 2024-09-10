@@ -1,5 +1,5 @@
 <div class="w3-row">
-  <div class="w3-col m8">
+  <div class="w3-col m8 w3-center">
     <!-- Tease -->
     <div class="w3-section">
       <h2>{% editable_text "slides" %}{% endeditable_text %}</h2>
@@ -7,30 +7,30 @@
     <!-- Slider -->
     {% with_scope active: true %}
     {% for slide in contents.slides %}
-    <div class="w3-display-container w3-animate-opacity mySlides">
-      <img src="{{slide.picture.url}}" style="width:100%">
+    <div class="w3-display-container w3-animate-opacity mySlides slider">
+      <img src="{{slide.picture.url | resize: '530x340#'}}">
       <div class="w3-display-topleft w3-text-white w3-container w3-padding-hor-32 w3-hide-small">
         <span class="w3-white w3-padding-large w3-animate-bottom">{{slide.title}}</span>
       </div>
     </div>
     {% endfor %}
     <!-- Slideshow next/previous buttons -->
-    <div class="w3-container w3-padding-hor-8">
+    <!-- <div class="w3-container w3-padding-hor-8">
       <div class="w3-left w3-hover-text-teal w3-large" onclick="plusDivs(-1)">&#10094;</div>
       <div class="w3-right w3-hover-text-teal w3-large" onclick="plusDivs(1)">&#10095;</div>
       <div class="w3-center">
       {% for slide in contents.slides %}
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv({{ forloop.index }})"></span>
+        <span class="dots w3-tag w3-border w3-transparent w3-hover-white" onclick="currentDiv({{ forloop.index }})"></span>
       {% endfor %}
       </div>
-    </div>
+    </div> -->
     {% endwith_scope %}
   </div>
-  <div class="w3-col m4">
+  <div class="w3-col m4 w3-center">
     <!-- Tease -->
     <div class="w3-section">
       <h2>{% editable_text "promo" %}{% endeditable_text %}</h2>
     </div>
-      <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-8111479" itemscope itemtype="http://schema.org/Product" data-single-product-id="8111479"><div itemprop="image"></div><div class="ecwid-title" itemprop="name" content="Concombres"></div><div itemtype="http://schema.org/Offer" itemscope itemprop="offers"><div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="1.12" data-spw-price-location="button"><div itemprop="priceCurrency" content="EUR"></div></div></div><div customprop="options"></div><div customprop="qty"></div><div customprop="addtobag"></div></div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?842164&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script>
+      {% editable_text "item", format: 'raw' %}{% endeditable_text %}
   </div>
 </div>
