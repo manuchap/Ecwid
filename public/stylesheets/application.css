@@ -120,3 +120,8 @@ footer {
 .slider {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
+.ecwidfix {
+  padding-bottom:16px;
+  margin-top:80px;
+  margin-bottom:50px
+}
