@@ -2,7 +2,7 @@
   <div class="w3-col m8 w3-center">
     <!-- Tease -->
     <div class="w3-section">
-      <h2>{% editable_text "slides" %}{% endeditable_text %}</h2>
+      <h2>{% editable_text "slides", format: 'raw', rows: 1 %}{% endeditable_text %}</h2>
     </div>
     <!-- Slider -->
     {% with_scope active: true %}
@@ -19,7 +19,7 @@
   <div class="w3-col m4 w3-center">
     <!-- Tease -->
     <div class="w3-section">
-      <h2>{% editable_text "promo" %}{% endeditable_text %}</h2>
+      <h2>{% editable_text "promo", format: 'raw', rows: 1 %}{% endeditable_text %}</h2>
     </div>
       {% editable_text "item", format: 'raw' %}{% endeditable_text %}
   </div>
