@@ -65,6 +65,7 @@ GEM
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     formatador (1.1.0)
     guard (2.18.1)
       formatador (>= 0.2.4)
@@ -195,7 +196,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (6.0.1)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.7)
@@ -231,11 +232,11 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   guard-livereload
   locomotivecms_wagon
-  rb-fsevent (~> 0.10.0)
 
 BUNDLED WITH
    2.5.3
