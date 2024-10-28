@@ -65,6 +65,7 @@ GEM
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     formatador (1.1.0)
     guard (2.18.1)
       formatador (>= 0.2.4)
@@ -212,7 +213,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rexml (3.3.7)
+    rexml (3.3.9)
     ruby2_keywords (0.0.5)
     sanitize (6.0.2)
       crass (~> 1.0.2)
@@ -231,11 +232,11 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   guard-livereload
   locomotivecms_wagon
-  rb-fsevent (~> 0.10.0)
 
 BUNDLED WITH
    2.5.3
